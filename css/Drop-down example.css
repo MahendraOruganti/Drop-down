@@ -1,0 +1,241 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+.image{
+	background-image: url('../cover1661245974441.jpg');
+	
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+}
+.main{
+	text-align: center; 
+	padding: 20px;
+	background-color: green;
+	
+
+}
+.main ul{
+	list-style: none;
+
+}
+.main ul li{
+	width: 120px;
+	padding: 15px;
+	margin: 15px;
+
+
+	display: inline;
+
+}
+.main ul li a{
+	text-decoration: none;
+	color: white;
+}
+.main i{
+	padding-right: 15px;
+}
+
+
+
+.active, .main ul li:hover
+{
+	background-color: blue;
+	border-radius: 5px;
+}
+
+
+.apple{
+	display: none;
+}
+.apple ul li{
+	display: block;
+}
+
+.main ul li:hover .apple{
+	display: inline;
+	position: absolute;
+	/*left: 150px;
+	top: 10px;*/
+	background-color: green;
+	margin-top: 35px;
+	margin-left: 2;
+
+
+}
+.main ul li:hover .apple ul{
+	display: block;
+	margin: 10px;
+
+}
+.main ul li:hover .apple ul li{
+	width: 150px;
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid; white;
+	background: transparent;
+	border-radius: 0px;
+
+}
+
+
+.gova{
+	display: none;
+}
+.gova ul li{
+	display: block;
+}
+
+.apple ul li:hover .gova{
+	display: block;
+	position: absolute;
+	background-color: green;
+/*	margin-top: 15px;
+	margin-left: 100px;*/
+
+
+}
+.concat{
+	display: none;
+
+}
+.concat ul li{
+	text-align: justify;
+	display: block;
+}
+.main ul li:hover .concat{
+	display: inline;
+	position: absolute;
+	background-color: green;
+	margin-top: 20px;
+	margin-right: 50px;
+
+
+}
+
+
+.training{
+	display: none;
+}
+.training ul li{
+	text-align: justify;
+	display: block;
+}
+.main ul li:hover .training{
+
+	display: inline;
+	position: absolute;
+	background-color: green;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+
+
+.Sevices{
+	display: none;
+}
+.Sevices ul li{
+	display: block;
+	text-align: justify;
+}
+.main ul li:hover .Sevices{
+	display: inline;
+	position: absolute;
+	background-color: green;
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+
+.Clients{
+	display: none;
+}
+.Clients ul li{
+	display: block;
+	text-align: justify;
+}
+.main ul li:hover .Clients{
+	display: inline;
+	position: absolute;
+	background-color: green;
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+
+.ms{
+	display: none;
+}
+.ms ul li{
+	display: block;
+	text-align: justify;
+}
+
+.python ul li:hover .ms{
+	display: block;
+	position: absolute;
+	background-color: green;
+	margin-top: 15px;
+	margin-left: 100px;
+
+
+}
+.python ul li:hover .ms ul li{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.ms{
+	display: none;
+}
+.ms ul li{
+/*	display: block;*/
+	text-align: justify;
+}
+.python ul li :hover .ms{
+	display: inline;
+	position: absolute;
+	background-color: green;
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+.python ul li:hover .ms ul{
+/*	display: block;*/
+display: inline;
+	padding: 20px;
+}
+
+.python ul li:hover .ms ul li{
+	width: 150px;
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid; white;
+	background: transparent;
+	border-radius: 0px;
+
+}
+
